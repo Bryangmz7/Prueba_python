@@ -32,6 +32,3 @@ chart = alt.Chart(df_filtrado).mark_line(point=True).encode(
 )
 st.altair_chart(chart, use_container_width=True)
 
-pip install streamlit pandas altair
-streamlit run app.py
-
